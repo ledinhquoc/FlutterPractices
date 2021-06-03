@@ -1,7 +1,13 @@
 import 'package:flutter/material.dart';
 import 'MyApp.dart';
 void main() {
-  runApp(MyApp());
+  runApp(MaterialApp(
+    title: 'Transaction app',
+    theme: ThemeData(
+      primaryColor: Colors.red[900]
+    ),
+    home: MyApp(),
+  ));
 }
 
 
